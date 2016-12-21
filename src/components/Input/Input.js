@@ -1,5 +1,7 @@
 import React, { PropTypes } from 'react';
 
+require('./Input.styl');
+
 class Input extends React.Component {
   constructor() {
     super();
@@ -12,7 +14,10 @@ class Input extends React.Component {
 
   render() {
     return (
-      <input onChange={this.handleChange} />
+      <input
+        className="Input"
+        onChange={this.handleChange}
+      />
     );
   }
 }
