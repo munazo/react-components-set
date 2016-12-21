@@ -1,5 +1,5 @@
 import React from 'react';
-import Input from './Input';
+import Input from './Input/Input';
 
 class App extends React.Component {
   constructor() {
